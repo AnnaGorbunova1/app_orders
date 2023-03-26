@@ -1,0 +1,17 @@
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Service.deps.json
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Service.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/ref/OrdersCRUD.Service.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Service.pdb
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Data.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Model.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Data.pdb
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/bin/Debug/net6.0/OrdersCRUD.Model.pdb
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.csproj.AssemblyReference.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.AssemblyInfoInputs.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.AssemblyInfo.cs
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.csproj.CoreCompileInputs.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.csproj.CopyComplete
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/ref/OrdersCRUD.Service.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/Debug/net6.0/OrdersCRUD.Service.pdb

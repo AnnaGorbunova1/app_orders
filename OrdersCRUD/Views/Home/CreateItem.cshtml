@@ -1,0 +1,38 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OrdersCRUD.Model.ViewModels.OrderItemVM
+@{
+    ViewData["Title"] = "Создание строки заказа";
+}
+
+<form asp-action="CreateItem" asp-controller="home">
+    <p>
+        <input hidden="hidden" type="text" asp-for="OrderId" value=@Model.OrderId/>
+    </p>
+    <p>
+        <label>Номер заказа</label><br />
+        <label>@Model.OrderNumber</label><br />
+        <input hidden="hidden" type="text" asp-for="OrderNumber" value=@Model.OrderNumber/>
+    </p>
+    <p>
+        <label asp-for="Name">Название</label><br />
+        <input type="text" asp-for="Name" />
+        <span asp-validation-for="Name" />
+    </p>
+    <p>
+        <label asp-for="Quantity">Количество</label><br />
+        <input type="text" asp-for="Quantity" />
+        <span asp-validation-for="Quantity" />
+    </p>
+    <p>
+        <label asp-for="Unit">Единицы измерения</label><br />
+        <input type="text" asp-for="Unit" />
+        <span asp-validation-for="Unit" />
+    </p>
+    <div asp-validation-summary="ModelOnly"></div>
+    <p>
+        <input type="submit" value="Сохранить" />
+    </p>
+</form>
+@* <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script> *@
+@* <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script> *@
+@* <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script> *@

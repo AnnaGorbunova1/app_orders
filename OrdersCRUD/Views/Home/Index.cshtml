@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Список заказов";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OrdersCRUD.Model.ViewModels.OrdersListVM
+
+<div>
+    <h1 class="display-4">Заказы</h1>
+    <p><a asp-action="Create">Добавить заказ</a></p>
+    
+    <form method="get">
+        <div >
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <label >Поставщик: </label>
+                            @Html.ListBox("provider", Model.Providers, new { @class = "select2 form-select", multiple = "multiple" })
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label >Номер заказа: </label>
+                            @Html.ListBox("number", Model.Numbers, new { @class = "select2 form-select", multiple = "multiple" })<br/>
+                        </div>
+                    </td>
+                    
+                </tr>
+            </table>
+            <label>Дата C</label>
+            <input type="date" value=@ViewData["dateFrom"] id="dateFromStr" name="dateFromStr"/>
+            <label>Дата По</label>
+            <input type="date" value=@ViewData["dateTo"] id="dateToStr" name="dateToStr"/><br/>
+
+            <input type="submit" value="Фильтр"/>
+        </div>
+        
+    </form>
+     
+    <table>
+        <tr><th>Номер</th><th>Дата</th><th>Поставщик</th></tr>
+        @foreach (var item in Model.Orders)
+        {
+            <tr>
+                <td><a asp-controller="Home" asp-action="Order" asp-route-id=@item.Id>@item.Number</a></td>
+                @* <td>@item.Number</td> *@
+                <td>@item.Date.ToShortDateString()</td>
+                <td>@item.Provider.Name</td>
+            </tr>
+        }
+    </table>
+</div>

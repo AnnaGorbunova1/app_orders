@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD/OrdersCRUD.csproj": {}
+  },
+  "projects": {
+    "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj",
+        "projectName": "OrdersCRUD.Data",
+        "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj": {
+                "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj",
+        "projectName": "OrdersCRUD.Model",
+        "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/OrdersCRUD.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/OrdersCRUD.Service.csproj",
+        "projectName": "OrdersCRUD.Service",
+        "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/OrdersCRUD.Service.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj": {
+                "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj"
+              },
+              "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj": {
+                "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/OrdersCRUD.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD/OrdersCRUD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD/OrdersCRUD.csproj",
+        "projectName": "OrdersCRUD_assembly",
+        "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD/OrdersCRUD.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj": {
+                "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Data/OrdersCRUD.Data.csproj"
+              },
+              "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/OrdersCRUD.Service.csproj": {
+                "projectPath": "/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Service/OrdersCRUD.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

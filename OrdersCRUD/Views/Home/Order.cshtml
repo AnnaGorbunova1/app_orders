@@ -1,0 +1,65 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OrdersCRUD.Model.ViewModels.OrderVM
+@{
+    ViewData["Title"] = "Заказ " + Model.Number;
+}
+<h2>Заказ @Model.Number</h2>
+<form asp-action="order" asp-controller="home">
+    
+    <p>
+        <label asp-for="Date">Дата @Model.Date</label><br />
+        <label asp-for="ProviderName">Поставщик @Model.ProviderName</label><br />
+    </p>
+    <p>
+   
+    <input asp-controller="Home" asp-action="DeleteOrder" method="post" asp-route-id=@Model.Id type="submit" value="Удалить заказ" />
+     
+    </p>
+    
+    <table>
+        <tr>
+            <td>
+                <div>
+                    <label >Названия: </label>
+                    @Html.ListBox("name", Model.OrderItems.Names, new { @class = "select2 form-select", multiple = "multiple" })
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label >Единицы измерения: </label>
+                    @Html.ListBox("unit", Model.OrderItems.Units, new { @class = "select2 form-select", multiple = "multiple" })<br/>
+                </div>
+            </td>
+                    
+        </tr>
+    </table>
+    <input type="submit" asp-action="Order" formmethod="get" asp-route-name="name" asp-route-unit="unit" value="Фильтр"/>
+    
+    @if (Model.OrderItems.OrderItems.Any())
+    {
+        
+        <h3>Товары</h3>
+        <table>
+            <tr><th>Название</th><th>Количество</th><th>Единицы измерения</th></tr>
+            @foreach (var item in Model.OrderItems.OrderItems)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Unit</td>
+                </tr>
+            }
+        </table>
+    }
+    else 
+    {
+        <p>Нет строк в заказе</p>
+    }
+
+    <p>
+        <input asp-controller="Home" asp-action="EditOrder" formmethod="get" asp-route-id=@Model.Id type="submit" value="Редактировать заказ" />
+    </p>
+    <p>
+        <a asp-action="Index">К списку заказов</a>
+    </p>
+</form>

@@ -1,0 +1,15 @@
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/OrdersCRUD.Model.deps.json
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/OrdersCRUD.Model.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/ref/OrdersCRUD.Model.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/OrdersCRUD.Model.pdb
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.csproj.AssemblyReference.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.AssemblyInfoInputs.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.AssemblyInfo.cs
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.csproj.CoreCompileInputs.cache
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.csproj.CopyComplete
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/ref/OrdersCRUD.Model.dll
+/home/anna/RiderProjects/OrdersCRUD/OrdersCRUD.Model/obj/Debug/net6.0/OrdersCRUD.Model.pdb
